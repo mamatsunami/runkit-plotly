@@ -1,0 +1,32 @@
+{
+  "name": "runkit-plotly",
+  "version": "1.0.0",
+  "description": "wrapper to easily embed plotly charts in runkit",
+  "main": "distribution/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"prepublish": "npm run build",
+	"build": "babel index.js --presets babel-preset-node8 --out-dir distribution",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamatsunami/runkit-plotly.git"
+  },
+  "keywords": [
+    "runkit",
+    "plotly",
+    "chart"
+  ],
+  "author": "mamatsunami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mamatsunami/runkit-plotly/issues"
+  },
+  "homepage": "https://github.com/mamatsunami/runkit-plotly#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-node8": "^1.2.0",
+    "eslint": "^4.9.0"
+  }
+}
