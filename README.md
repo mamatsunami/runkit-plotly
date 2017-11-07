@@ -3,7 +3,7 @@ runkit-plotly
 
 Tool module to easily embed [plotly](https://github.com/plotly/plotly.js) charts in a [runkit](https://runkit.com) notebook.
 
-[See working example](https://runkit.com/mamatsunami/runkit-plotly-example)
+[See working example](https://runkit.com/mamatsunami/runkit-plotly-chart-example)
 
 ```
 const wrapPlotly = require('runkit-plotly');
